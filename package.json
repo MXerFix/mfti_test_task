@@ -5,7 +5,8 @@
     "start": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest",
+    "build:dev" : "vite build"
   },
   "dependencies": {
     "react": "^18.0.0",
