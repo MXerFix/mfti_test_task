@@ -123,7 +123,6 @@ function App() {
       SET_RESULT_ARRAY([fatherNodes])  // PUSHING PARENT NODES IN RESULT_ARRAY
       const arrFatherNodes: any[] = fatherNodes.map((el) => [el]) // MUTATING PARENT NODES TYPE [1, 2 ,3] TO [[1], [2], [3]] FOR HELPER FUNCTION WORK
       makeDependenceArr(arrFatherNodes, NODES[page], EDGES[page])  // MAKE NEW RESULT_ARRAY
-      console.log(fatherNodes);
     }
   }, [page]) // WHEN PAGE SWITCHED
 
