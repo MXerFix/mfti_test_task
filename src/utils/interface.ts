@@ -1,7 +1,15 @@
-
+interface nodeIndexesI {
+  strokeIndex: number,
+  nodeIndex: number
+}
 interface nodesItemI {
   id: number,
   name: string
+}
+
+interface edgesItemI {
+  fromId: number,
+  toId: number
 }
 
 interface dropdownPropI {
@@ -11,5 +19,5 @@ interface dropdownPropI {
 }
 
 export type {
-  nodesItemI, dropdownPropI
+  nodesItemI, dropdownPropI, nodeIndexesI, edgesItemI
 }
